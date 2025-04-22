@@ -1,0 +1,54 @@
+body{
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.logo-top{
+    position: fixed;
+    display: inline;
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+li{
+    display: inline;
+    margin-top: 20px;
+    color: gray;
+    padding: 14px 18px;
+}
+
+li:hover{
+    color:black;
+}
+
+button{
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    border: solid;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.nav-center{
+    float: none;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.signup-button{
+    margin-right: 10px;
+}
